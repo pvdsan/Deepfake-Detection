@@ -77,35 +77,6 @@ We utilize the **CelebDFv2 dataset**, an improved version of CelebDFv1, known fo
 2. CNN-based approaches like EfficientNet, paired with Grad-CAM visualizations, offer high accuracy and better interpretability.
 3. Future work should explore enhancing face extraction techniques and refining segmentation maps to improve model robustness.
 
----
-
-## References
-
-1. Tan, M., & Le, Q. (2019). **EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks.**
-2. Rossler, A., et al. (2019). **FaceForensics++: Learning to Detect Manipulated Facial Images.**
-3. Dolhansky, B., et al. (2020). **The DeepFake Detection Challenge (DFDC) Preview Dataset.**
-4. Thies, J., et al. (2016). **Face2Face: Real-time Face Capture and Reenactment of RGB Videos.**
-5. Goodfellow, I., et al. (2014). **Generative Adversarial Networks.**
-
----
-
-## How to Run
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-repo-name.git
-    cd deepfake-detection
-    ```
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Run the detection script:
-    ```bash
-    python detect_deepfake.py --input /path/to/video.mp4
-    ```
-
----
 
 ## Acknowledgments
 Special thanks to the Department of Computer Science, Georgia State University, for support and resources.
